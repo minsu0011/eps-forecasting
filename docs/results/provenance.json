@@ -1,0 +1,9 @@
+[
+  {
+    "sourceFile": "EPS_V2_ALL_SURFACE_RESULTS.csv",
+    "sourceSHA256": "c3850c5e3da873947945cb2b6ddffb46344725604e3a76f91f3016304cc90d2c",
+    "publishedFile": "docs/results/confirmation.json",
+    "publishedSHA256": "c62b91dcb946c1ed45f4dce5466c3717009bba9773a4cbd5d52c699a1adea96e",
+    "scope": "당시 결과에서 발췌한 집계다. 원본과 발췌 파일의 해시는 동일성 확인용이며 새 학습이나 투자 성과의 재현을 뜻하지 않는다."
+  }
+]

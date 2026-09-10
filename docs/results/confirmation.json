@@ -1,0 +1,98 @@
+[
+  {
+    "model_id": "CatBoost_N_direct",
+    "target": "h1",
+    "surface": "confirmation",
+    "family": "CatBoost",
+    "model_track": "LOCAL_CAUSAL_RESEARCH",
+    "truth_rows": "648",
+    "MAE": "0.8386654022294737",
+    "MedianAE": "0.3519430504129384",
+    "p99_AE": "9.414448938327002",
+    "resultStatus": "RECEIPT_VERIFIED"
+  },
+  {
+    "model_id": "Chronos2ZeroShot_N_native",
+    "target": "h1",
+    "surface": "confirmation",
+    "family": "Chronos2ZeroShot",
+    "model_track": "RETROSPECTIVE_FOUNDATION",
+    "truth_rows": "648",
+    "MAE": "0.7902844432577464",
+    "MedianAE": "0.3448573446273802",
+    "p99_AE": "8.929475906562802",
+    "resultStatus": "RECEIPT_VERIFIED"
+  },
+  {
+    "model_id": "Chronos2_N_joint_rolling",
+    "target": "h1",
+    "surface": "confirmation",
+    "family": "Chronos2",
+    "model_track": "RETROSPECTIVE_FOUNDATION",
+    "truth_rows": "648",
+    "MAE": "0.7499594061470345",
+    "MedianAE": "0.2881120371818542",
+    "p99_AE": "9.055757666039444",
+    "resultStatus": "RECEIPT_VERIFIED"
+  },
+  {
+    "model_id": "HistGB_N_direct",
+    "target": "h1",
+    "surface": "confirmation",
+    "family": "HistGB",
+    "model_track": "LOCAL_CAUSAL_RESEARCH",
+    "truth_rows": "648",
+    "MAE": "0.8287264695353879",
+    "MedianAE": "0.338909974731604",
+    "p99_AE": "9.356520464987597",
+    "resultStatus": "RECEIPT_VERIFIED"
+  },
+  {
+    "model_id": "HistGB_N_residual",
+    "target": "ttm",
+    "surface": "confirmation",
+    "family": "HistGB",
+    "model_track": "LOCAL_CAUSAL_RESEARCH",
+    "truth_rows": "512",
+    "MAE": "3.624758649591984",
+    "MedianAE": "1.5184557811943793",
+    "p99_AE": "34.66648599768631",
+    "resultStatus": "RECEIPT_VERIFIED"
+  },
+  {
+    "model_id": "LSTM_N_residual_recency",
+    "target": "h1",
+    "surface": "confirmation",
+    "family": "LSTM",
+    "model_track": "LOCAL_CAUSAL_RESEARCH",
+    "truth_rows": "648",
+    "MAE": "0.8160035090868689",
+    "MedianAE": "0.3494902849197387",
+    "p99_AE": "9.130271103286743",
+    "resultStatus": "RECEIPT_VERIFIED"
+  },
+  {
+    "model_id": "NGBoostLaplace_N_direct",
+    "target": "h1",
+    "surface": "confirmation",
+    "family": "NGBoostLaplace",
+    "model_track": "LOCAL_CAUSAL_RESEARCH",
+    "truth_rows": "648",
+    "MAE": "0.8298987887184932",
+    "MedianAE": "0.3409391245785257",
+    "p99_AE": "8.799915418236214",
+    "resultStatus": "RECEIPT_VERIFIED"
+  },
+  {
+    "model_id": "NGBoostLaplace_N_residual",
+    "target": "ttm",
+    "surface": "confirmation",
+    "family": "NGBoostLaplace",
+    "model_track": "LOCAL_CAUSAL_RESEARCH",
+    "truth_rows": "512",
+    "MAE": "3.604709693190382",
+    "MedianAE": "1.6194007516549451",
+    "p99_AE": "37.43268303826429",
+    "resultStatus": "RECEIPT_VERIFIED"
+  }
+]
