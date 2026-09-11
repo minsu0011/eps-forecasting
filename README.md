@@ -47,7 +47,7 @@ SEC 공시 → native fiscal ledger → 시점별 feature·성숙한 label → �
 
 ## 결과와 남은 문제
 
-보존된 [확인 구간 결과](docs/results/confirmation.json)에서 Lane A는 동일한 648개 truth에 대해 Chronos rolling MAE 0.7500, CatBoost 0.8387, LSTM 0.8160이었다. 이는 USD EPS 오차이며 투자 수익률이 아니다. 세부 비교와 다른 모델 값은 [결과 문서](docs/wiki/Validation-and-Results.md)에 정리했다.
+보존된 [확인 구간 결과](docs/results/confirmation.json)에서 Lane A는 동일한 648개 truth에 대해 Chronos rolling MAE 0.7500, CatBoost 0.8387, LSTM 0.8160이었다. 이는 USD EPS 오차이며 투자 수익률이 아니다. 세부 비교와 다른 모델 값은 [결과 문서](https://github.com/minsu0011/eps-forecasting/wiki/Validation-and-Results)에 정리했다.
 
 Lane C는 512개 truth에서 HistGB 3.6248, NGBoost 3.6047이었다. 당시 기준선 MAE 3.5499를 넘지 못해 준비 완료로 판단하지 않았다. Chronos의 80% 구간도 확인 구간에서 보정 후 coverage 74.07%에 그쳐 점 예측과 확률 보정의 결론이 다르다.
 
@@ -55,7 +55,7 @@ V1과 V2는 평가 조건이 달라 직접적인 개선치로 비교하지 않�
 
 ## 시작하기
 
-환경 구성과 데이터 계약은 [실행 안내](docs/wiki/How-to-Run.md), 작은 계약 테스트는 다음 명령에서 시작한다.
+환경 구성과 데이터 계약은 [실행 안내](https://github.com/minsu0011/eps-forecasting/wiki/How-to-Run), 작은 계약 테스트는 다음 명령에서 시작한다.
 
 ```powershell
 python -m pytest research/eps_model_lab_v1/test_checksum_stream.py -q
@@ -65,4 +65,6 @@ python -m pytest research/eps_model_lab_v1/test_checksum_stream.py -q
 
 ## 상세 문서
 
-[연구 안내](docs/wiki/Home.md) · [전체 개발 과정](docs/wiki/Development-Journey.md) · [모델 발전](docs/wiki/Model-Evolution.md) · [회계·PIT 병목](docs/wiki/PIT-and-Accounting-Issues.md) · [실험 결정](docs/wiki/Experiments-and-Decisions.md) · [결과](docs/wiki/Validation-and-Results.md)
+[연구 안내](https://github.com/minsu0011/eps-forecasting/wiki/Home) · [전체 개발 과정](https://github.com/minsu0011/eps-forecasting/wiki/Development-Journey) · [모델 발전](https://github.com/minsu0011/eps-forecasting/wiki/Model-Evolution) · [회계·PIT 병목](https://github.com/minsu0011/eps-forecasting/wiki/PIT-and-Accounting-Issues) · [실험 결정](https://github.com/minsu0011/eps-forecasting/wiki/Experiments-and-Decisions) · [결과](https://github.com/minsu0011/eps-forecasting/wiki/Validation-and-Results)
+
+문서의 저장소 내부 사본은 [docs/wiki](docs/wiki)에 함께 보관한다.
